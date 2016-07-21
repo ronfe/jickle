@@ -1,7 +1,14 @@
 # jickle
 A package for JSON pickle
 
+## Install
+```
+pip3 install jickle
+```
+
 ## Usage
+It is SPECIFICALLY useful if you intend to update data from a nested JSON and then return them to JSON.
+
 ```{python}
 from jickle import *
 import json
