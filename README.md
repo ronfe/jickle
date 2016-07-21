@@ -22,6 +22,7 @@ c.substitute(3, [333])
 
 # let's output the new dict
 c.update()
-d = c.output_dict
+c.output_dict
+# output: {'a': 1, 'b': {'b2': [333], 'b1': 2}}
 
 ```
