@@ -17,6 +17,11 @@ a = {"a": 1, "b": {"b1": 2, "b2": 3}}
 b = json.dumps(a)
 c = Jickle(b)
 
+c.a
+# output: 1
+c.b.b1
+# output: 2
+
 # if you want to change 3 to [333] at anywhere in a
 c.substitute(3, [333])
 
