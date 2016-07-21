@@ -46,6 +46,6 @@ class Jickle(object):
                 x.substitute(ptn, repl)
             else:
                 if type(ptn) == type(x) and hasattr(ptn, '__iter__') and ptn in x:
-                    setattr(self, x, repl)
+                    setattr(self, each, repl)
                 elif type(ptn) == type(x) and ptn == x:
                     setattr(self, each, repl)

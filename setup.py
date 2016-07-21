@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='jickle',
-      version='0.1',
+      version='0.1.2',
       description='JSON pickle',
       url='http://github.com/ronfe/jickle',
       author='ronfe',
